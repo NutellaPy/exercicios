@@ -1,0 +1,18 @@
+programa 
+{
+  // Determinar o termo de uma PG
+inclua biblioteca Matematica
+  funcao inicio() 
+  {
+    real an
+    inteiro n, q, a1
+    escreva("Escreva o termo desejado: ")
+    leia(n)
+    escreva("Escreva a razao da PG: ")
+    leia(q)
+    escreva("Escreva o primeiro termo da PG: ")
+    leia(a1)
+    an = a1 * Matematica.potencia(q,(n-1))
+    escreva("O ", n ,"º termo da PG é = ", an)
+  }
+}
