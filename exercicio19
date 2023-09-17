@@ -1,0 +1,17 @@
+programa 
+{
+inclua biblioteca Matematica
+  funcao inicio() // calcula o produto de n termo de um PG
+  {
+    inteiro q, a1, produto, n
+    escreva("Escreva a razao da PG: ")
+    leia(q)
+    escreva("Escreva o primeiro termo da PG: ")
+    leia(a1)
+    escreva("Escreva quantos termos voce deseja: ")
+    leia(n)
+    produto = Matematica.potencia(a1, n) * Matematica.potencia(q, n*(n-1) / 2)
+    escreva("O produto dos tres primeiros termos da PG é ", produto)
+  } 
+
+}
