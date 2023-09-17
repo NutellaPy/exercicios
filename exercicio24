@@ -1,0 +1,16 @@
+programa 
+{
+  funcao inicio() 
+  {
+    //calcula o valor do volume de uma lata de oleo
+    real v, r, h, pi
+    pi = 3.14159
+    escreva("Escreva o valor do raio: ")
+    leia(r)
+    escreva("Escreva o valor da altura: ")
+    leia (h)
+    v = pi*(r*r)*h
+    escreva("O volume da lata de oleo é: ", v)
+    
+  }
+}
