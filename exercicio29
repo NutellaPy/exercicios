@@ -1,0 +1,13 @@
+programa 
+{
+  funcao inicio() 
+  {
+    inteiro h, m, total
+    escreva("Insira a hora: ")
+    leia(h)
+    escreva("Insira os minutos: ")
+    leia(m)
+    total = h*60+m
+    escreva("Se passaram desde o inicio do dia: ", total, " minutos")
+  }
+}
