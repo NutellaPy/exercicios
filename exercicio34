@@ -1,0 +1,19 @@
+programa 
+{
+  funcao inicio() 
+  {
+    real salario, valor, valor_desc, cemqw, umqw
+    inteiro qw
+    escreva("O valor do salario e: ")
+    leia(salario)
+    cemqw = salario / 7
+    umqw = salario / 7 / 100
+    escreva("Insira a quantidade de quilowatts gasta: ")
+    leia(qw)
+    valor = qw * umqw
+    valor_desc = valor - valor * (10/100)
+    escreva("O valor de cada quilowatt e: ",umqw, "\n" )
+    escreva("O valor a ser pago e: ", valor, "\n")
+    escreva("O valor a ser pago com desconto e: ", valor_desc, "\n")
+  }
+}
