@@ -1,0 +1,14 @@
+programa 
+{
+  funcao inicio() 
+  {
+    //calcular media aritmetica de dois números
+    real n1, n2, media
+    escreva("insira o primeiro numero: ")
+    leia(n1)
+    escreva("insira o segundo numero: ")
+    leia(n2)
+    media = (n1 + n2) / 2
+    escreva("O resultado é: ", media)
+  }
+}
