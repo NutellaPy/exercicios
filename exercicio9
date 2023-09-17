@@ -1,0 +1,12 @@
+programa 
+{
+  funcao inicio() 
+  {
+    inteiro p , c
+    escreva("Digite os numeros da placa: ")
+    leia(p)
+    //Qualquer numero de 4 algarismos dividido por 1000 resulta no primeiro algarismo
+    c = p / 1000
+    escreva("O primeiro numera da placa é: ", c)
+  }
+}
