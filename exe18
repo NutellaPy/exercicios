@@ -1,0 +1,11 @@
+programa {
+  funcao inicio() {
+    real num1
+    escreva("Digite um numero: ")
+    leia(num1)
+    se(num1 >= 20 e num1 <= 90)
+    escreva("\nO numero esta compreendido na faixa de valores")
+    senao
+    escreva("\nO numero nao esta compreendido na faixa de valores")
+  }
+}
