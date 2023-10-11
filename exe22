@@ -1,0 +1,19 @@
+programa {
+  funcao inicio() {
+    real saldo
+    escreva("Digite o valor do saldo: ")
+    leia(saldo)
+    se(saldo >= 0 e saldo <= 500){
+      escreva("\nNenhum credito disponivel!")
+    }
+    se(saldo >= 501 e saldo <= 1000){
+      escreva("\nO credito disponivel é: ", (30/100) * saldo)
+    }
+    se(saldo >= 1001 e saldo <= 3000){
+      escreva("\nO credito disponivel é: ", (40/100) * saldo)
+    }
+    se(saldo >= 3001){
+      escreva("\nO credito disponivel é: ", (50/100) * saldo)
+    }
+  }
+}
