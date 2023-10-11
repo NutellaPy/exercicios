@@ -1,0 +1,21 @@
+programa {
+  funcao inicio() {
+    real freq, nota
+    escreva("Digite a frequencia em porcentagem: ")
+    leia(freq)
+    se(freq < 75){
+      escreva("\nAluno reprovado!")
+    }
+    escreva("\nDigite a nota: ")
+    leia(nota)
+    se(freq >= 75 e nota < 3 ){
+      escreva("\nAluno reprovado!")
+    }
+    se(freq >= 75 e nota >=3 e nota < 7 ){
+      escreva("\nAluno de exame!")
+    }
+    se(freq >= 75 e nota >=7 ){
+      escreva("\nAluno aprovado!")
+    }
+  }
+}
