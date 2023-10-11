@@ -1,0 +1,9 @@
+programa {
+  funcao inicio() {
+    real x, fx
+    escreva("Insira o valor de X: ")
+    leia(x)
+    fx = 8 / (2 - x)
+    escreva("\nO valor da funçao de x e: ",fx )
+  }
+}
