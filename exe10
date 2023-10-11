@@ -1,0 +1,16 @@
+programa {
+  funcao inicio() {
+    real numA, numB
+    escreva ("Digite um numero: ")
+    leia (numA)
+    escreva("\nDigite outro numero: ")
+    leia (numB)
+    se(numA > numB){
+      escreva ("\nO numero ",numA,  " e maior que o numero ", numB)
+    }
+      senao{
+        escreva ("\nO numero ", numB, " e maior que o numero ", numA)
+      }
+    }
+  }
+}
