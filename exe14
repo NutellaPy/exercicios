@@ -1,0 +1,29 @@
+programa {
+  funcao inicio() {
+    real v1, v2, v3
+    escreva ("Digite o primeiro valor: ")
+    leia (v1)
+    escreva ("\nDigite o segundo valor: ")
+    leia (v2)
+    escreva ("\nDigite o terceiro valor: ")
+    leia (v3)
+    se(v1 > v2 e v2 > v3){ 
+      escreva("\nOs valores em ordem crescente sao ", v3,", " ,v2, " e ", v1)
+    }
+    se(v1 > v3 e v3 > v2){
+      escreva("\nOs valores em ordem crescente sao ", v2,", " ,v3, " e ", v1)
+    }
+    se(v2 > v1 e v1 > v3){
+      escreva("\nOs valores em ordem crescente sao ", v3,", " ,v1, " e ", v2)
+    }
+    se(v2 > v3 e v3 > v1){
+      escreva("\nOs valores em ordem crescente sao ", v1,", " ,v3, " e ", v2)
+    }
+    se(v3 > v1 e v1 > v2){
+      escreva("\nOs valores em ordem crescente sao ", v2, ", ", v1, " e ", v3)
+    }
+    se(v3 > v2 e v2 > v1){
+      escreva("\nOs valores em ordem crescente sao ", v1,", ", v2, " e ", v3)
+    }
+  }
+}
