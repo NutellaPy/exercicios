@@ -1,0 +1,25 @@
+programa {
+  funcao inicio() {
+    inteiro idade
+    escreva("Digite sua idade: ")
+    leia(idade)
+    se(idade <= 10){
+      escreva("\nO valor a ser pago é de R$30")
+    }
+    se(idade > 10 e idade <= 29){
+      escreva("\nO valor a ser pago é de R$60")
+    }
+    se(idade > 29 e idade <= 45){
+      escreva("\nO valor a ser pago é de R$120")
+    }
+    se(idade > 45 e idade <= 59){
+      escreva("\nO valor a ser pago é de R$150")
+    }
+    se(idade > 59 e idade <= 65){
+      escreva("\nO valor a ser pago é de R$250")
+    }
+    se(idade > 65){
+      escreva("\nO valor a ser pago é de R$400")
+    }
+  }
+}
