@@ -1,0 +1,16 @@
+programa {
+  inclua biblioteca Matematica --> m
+  funcao inicio() {
+    real num, quad, raizq
+    escreva("digite um numero: ")
+    leia(num)
+    se(num >= 0){
+     raizq = m.raiz(num, 2.0)
+     escreva("\nA raiz quadrada e: ", raizq)
+    }
+    senao{
+      quad = num * num
+      escreva("\nO quadrado do numero e: ", quad)
+    }
+}
+}
