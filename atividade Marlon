@@ -1,0 +1,16 @@
+programa {
+  funcao inicio() {
+    inteiro opcao
+    real valor_investido, taxa, prazo, valor_final, porc_acum 
+    escreva ("\nTeste a melhor opcao de investimento\n")
+    escreva ("\nOpcao1 - CDB a 103% do CDI ao ano\n")
+    escreva ("\nOpcao2 - Renda fixa pre-fixada a 12.5% a.a\n")
+    escreva ("\nOpcao3 - Renda Fixa IPCA + a IPCA + 6.5% a.a\n")
+    leia (opcao)
+    escreva ("\nQuanto gostaria de investir?\n")
+    leia (valor_investido)
+    escreva ("\nPor quantos meses gostaria de investir?\n")
+    leia (prazo)
+    escolha (opcao){
+      caso 1:
+      
