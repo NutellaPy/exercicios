@@ -46,6 +46,6 @@ programa
     }
     porc_acum=valor_final/valor_investido
     escreva("Valor total: ",valor_final)
-    escreva("Porcetagem acumulada: ",porc_acum)
+    escreva("\nPorcetagem acumulada: ",porc_acum)
   }
 }
