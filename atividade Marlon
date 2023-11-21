@@ -1,5 +1,7 @@
-programa {
-  funcao inicio() {
+programa 
+{
+  funcao inicio() 
+  {
     inteiro opcao
     real valor_investido, taxa, prazo, valor_final, porc_acum 
     escreva ("\nTeste a melhor opcao de investimento\n")
@@ -10,7 +12,40 @@ programa {
     escreva ("\nQuanto gostaria de investir?\n")
     leia (valor_investido)
     escreva ("\nPor quantos meses gostaria de investir?\n")
+    valor_final=valor_investido
     leia (prazo)
     escolha (opcao){
       caso 1:
-      
+      escreva("Informe o valor do CDI: \n")
+      leia(taxa)
+      taxa=(13.42*103/100) / 12
+      para(inteiro i=0; i<prazo; i++)
+      {
+        valor_final=valor_final+valor_final*taxa/100
+      }
+      pare
+      caso 2:
+      taxa=12.5/12
+      para(inteiro i=0; i<prazo; i++)
+      {
+        valor_final=valor_final+valor_final*taxa/100
+      }
+      pare
+      caso 3:
+      escreva("Informe o valor do IPCA: \n")
+      leia(taxa)
+      taxa=(taxa+6.5)/12
+      para(inteiro i=0; i<prazo; i++)
+      {
+        valor_final=valor_final+valor_final*taxa/100
+      }
+      pare
+      caso contrario:
+      escreva("Opçao invalida!\n")
+      pare
+    }
+    porc_acum=valor_final/valor_investido
+    escreva("Valor total: ",valor_final)
+    escreva("Porcetagem acumulada: ",porc_acum)
+  }
+}
